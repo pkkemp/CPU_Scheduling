@@ -1,5 +1,4 @@
 //
-//  main.cpp
 //  CPU Scheduling
 //
 //  Created by Preston Kemp on 8/13/19.
@@ -7,18 +6,6 @@
 //
 
 #include "oslabs.h"
-
-//struct PCB {
-//    int process_id;
-//    int arrival_timestamp;
-//    int total_bursttime;
-//    int execution_starttime;
-//    int execution_endtime;
-//    int remaining_bursttime;
-//    int process_priority;
-//};
-//
-//const int QUEUEMAX = 100;
 
 struct PCB readyqueue[30];
 

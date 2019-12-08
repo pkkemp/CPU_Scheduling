@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B309970A230319BC00AEA057 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3099709230319BC00AEA057 /* main.cpp */; };
 		B37D2B612304596B008BE78F /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = B37D2B602304596B008BE78F /* cpu.c */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		B3099706230319BC00AEA057 /* CPU Scheduling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPU Scheduling"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3099709230319BC00AEA057 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B37D2B5F230458ED008BE78F /* oslabs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oslabs.h; sourceTree = "<group>"; };
 		B37D2B602304596B008BE78F /* cpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpu.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +60,6 @@
 			children = (
 				B37D2B602304596B008BE78F /* cpu.c */,
 				B37D2B5F230458ED008BE78F /* oslabs.h */,
-				B3099709230319BC00AEA057 /* main.cpp */,
 			);
 			path = "CPU Scheduling";
 			sourceTree = "<group>";
@@ -124,7 +121,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37D2B612304596B008BE78F /* cpu.c in Sources */,
-				B309970A230319BC00AEA057 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
